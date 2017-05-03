@@ -1,0 +1,42 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Menu.js</file>
+        <file>ProgressBarGroupsArea.qml</file>
+        <file>Config.js</file>
+        <file>CustomButton.qml</file>
+        <file>ProgressBarStylesArea.qml</file>
+        <file>CustomImageButton.qml</file>
+        <file>progbarstyles/Hor_1.qml</file>
+        <file>images/Hor_1.png</file>
+        <file>progbarstyles/Hor_2.qml</file>
+        <file>images/Hor_2.png</file>
+        <file>progbarstyles/Cir_1.qml</file>
+        <file>progbarstyles/Cir_2.qml</file>
+        <file>progbarstyles/Cir_3.qml</file>
+        <file>progbarstyles/Cir_4.qml</file>
+        <file>progbarstyles/Hor_3.qml</file>
+        <file>progbarstyles/Cir_5.qml</file>
+        <file>progbarstyles/Cir_6.qml</file>
+        <file>progbarstyles/Hor_4.qml</file>
+        <file>progbarstyles/Cir_7.qml</file>
+        <file>main1.qml</file>
+        <file>images/Hor_3.png</file>
+        <file>images/Hor_4.png</file>
+        <file>images/Cir_1.png</file>
+        <file>images/Cir_2.png</file>
+        <file>images/Cir_3.png</file>
+        <file>images/Cir_4.png</file>
+        <file>images/Cir_5.png</file>
+        <file>images/Cir_6.png</file>
+        <file>images/Cir_7.png</file>
+        <file>progbarstyles/Cir_8.qml</file>
+        <file>images/Cir_8.png</file>
+        <file>progbarstyles/Cir_9.qml</file>
+        <file>images/Cir_9.png</file>
+        <file>progbarstyles/Ver_1.qml</file>
+        <file>CustomItem.qml</file>
+        <file>FPSArea.qml</file>
+        <file>images/Ver_1.png</file>
+    </qresource>
+</RCC>
