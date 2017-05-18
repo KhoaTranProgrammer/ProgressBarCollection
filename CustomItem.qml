@@ -31,7 +31,7 @@ Item {
         running: true
 
         onTriggered: {
-            p_actualFPS = p_curFPS
+            p_actualFPS = p_curFPS - 1
             p_curFPS = 0
             fps(getTargetFPS(), getActualFPS())
         }

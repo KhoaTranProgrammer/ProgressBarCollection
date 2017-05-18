@@ -1,0 +1,16 @@
+var list_styles = [
+    "Hor_1.qml",
+    "Hor_2.qml",
+    "Hor_3.qml",
+    "Hor_4.qml",
+    "Ver_1.qml",
+    "Cir_1.qml",
+    "Cir_2.qml",
+    "Cir_3.qml",
+    "Cir_4.qml",
+    "Cir_5.qml",
+    "Cir_6.qml",
+    "Cir_7.qml",
+    "Cir_8.qml",
+    "Cir_9.qml",
+]

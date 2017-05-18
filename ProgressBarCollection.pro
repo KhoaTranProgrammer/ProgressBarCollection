@@ -3,7 +3,12 @@ TEMPLATE = app
 QT += qml quick
 CONFIG += c++11
 
-SOURCES += main.cpp
+SOURCES += main.cpp \
+    CpuInfo.cpp \
+    GeneralInfo.cpp \
+    MemInfo.cpp \
+    SysInfo.cpp \
+    SysInfoQML.cpp
 
 RESOURCES += qml.qrc
 
@@ -28,3 +33,31 @@ DEFINES += QT_DEPRECATED_WARNINGS
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+HEADERS += \
+    GeneralInfo.h \
+    MemInfo.h \
+    CpuInfo.h \
+    SysInfo.h \
+    SysInfoQML.h \
+
+windows {
+    SOURCES += WindowsInfo.cpp
+    HEADERS += WindowsInfo.h
+}
+
+android {
+    SOURCES += AndroidInfo.cpp
+    HEADERS += AndroidInfo.h
+}
+
+DISTFILES += \
+    android/AndroidManifest.xml \
+    android/gradle/wrapper/gradle-wrapper.jar \
+    android/gradlew \
+    android/res/values/libs.xml \
+    android/build.gradle \
+    android/gradle/wrapper/gradle-wrapper.properties \
+    android/gradlew.bat
+
+ANDROID_PACKAGE_SOURCE_DIR = $$PWD/android

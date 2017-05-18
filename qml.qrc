@@ -20,7 +20,6 @@
         <file>progbarstyles/Cir_6.qml</file>
         <file>progbarstyles/Hor_4.qml</file>
         <file>progbarstyles/Cir_7.qml</file>
-        <file>main1.qml</file>
         <file>images/Hor_3.png</file>
         <file>images/Hor_4.png</file>
         <file>images/Cir_1.png</file>
@@ -38,5 +37,7 @@
         <file>CustomItem.qml</file>
         <file>FPSArea.qml</file>
         <file>images/Ver_1.png</file>
+        <file>PerformanceArea.qml</file>
+        <file>AutoData.js</file>
     </qresource>
 </RCC>
